@@ -16,7 +16,7 @@ public class NombresUtils {
 
     }
 
-    static <T> List<T> getList(T ... elements) { //getList(T ... elements) indica que recibira una cantidad indefinida de elementos
+    public static <T> List<T> getList(T ... elements) { //getList(T ... elements) indica que recibira una cantidad indefinida de elementos
         return Arrays.asList(elements);
     }
 }
